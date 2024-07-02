@@ -66,3 +66,25 @@ form button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.listings {
+    margin-top: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.grid-item h3 {
+    margin-top: 0;
+}
