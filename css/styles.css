@@ -71,6 +71,10 @@ form button {
     margin-top: 2rem;
 }
 
+.products {
+    margin-top: 2rem;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -87,4 +91,10 @@ form button {
 
 .grid-item h3 {
     margin-top: 0;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
 }
